@@ -1,0 +1,13 @@
+fecha: 2026-09-30 18:43:40
+cpu: AMD Ryzen 7 7735HS with Radeon Graphics
+nucleos_logicos: 16
+so: Windows 11 (10.0.26200)
+python: CPython 3.13.14
+repeticiones: 5
+warmup: 1
+estadistico: mediana
+tiempo: subprocess, perf_counter_ns (incluye arranque de proceso)
+versiones:
+  Propia: Huffman dinámico FGK: Python 3.13.14 (implementación propia, solo stdlib)
+  Externa: Brotli q5: brotli 1.1.0 (CLI oficial, ventana por defecto lgwin=22)
+  Baseline: gzip -n -6: gzip 1.13

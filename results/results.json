@@ -1,0 +1,524 @@
+{
+  "entorno": {
+    "fecha": "2026-09-30 18:43:40",
+    "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+    "nucleos_logicos": 16,
+    "so": "Windows 11 (10.0.26200)",
+    "python": "CPython 3.13.14",
+    "repeticiones": 5,
+    "warmup": 1,
+    "estadistico": "mediana",
+    "tiempo": "subprocess, perf_counter_ns (incluye arranque de proceso)",
+    "versiones": {
+      "Propia: Huffman dinámico FGK": "Python 3.13.14 (implementación propia, solo stdlib)",
+      "Externa: Brotli q5": "brotli 1.1.0 (CLI oficial, ventana por defecto lgwin=22)",
+      "Baseline: gzip -n -6": "gzip 1.13"
+    }
+  },
+  "filas": [
+    {
+      "Archivo": "prueba_1_pequena.txt",
+      "Solución": "Propia: Huffman dinámico FGK",
+      "So": 64,
+      "Sc": 62,
+      "Ratio": 1.032258064516129,
+      "Ahorro%": 3.125,
+      "Relativo%": 96.875,
+      "Tc_ms": 169.1677,
+      "Td_ms": 172.4791,
+      "Vc_MBs": 0.0003783228122153342,
+      "Vd_MBs": 0.00037105945010149056,
+      "Overhead%": 32.25806451612903,
+      "Weissman": 0.6228784435473413,
+      "SHA_OK": true,
+      "Cota_orden0": 2.4161736482740968,
+      "H0_bits_byte": 3.3110203009268395,
+      "Distintos": 14,
+      "Nucleo_Tc_ms": 0.2067,
+      "Nucleo_Td_ms": 0.2151
+    },
+    {
+      "Archivo": "prueba_1_pequena.txt",
+      "Solución": "Externa: Brotli q5",
+      "So": 64,
+      "Sc": 48,
+      "Ratio": 1.3333333333333333,
+      "Ahorro%": 25.0,
+      "Relativo%": 75.0,
+      "Tc_ms": 16.1824,
+      "Td_ms": 16.4495,
+      "Vc_MBs": 0.003954913980620921,
+      "Vd_MBs": 0.0038906957658287485,
+      "Overhead%": null,
+      "Weissman": 1.482822239493267,
+      "SHA_OK": true,
+      "Cota_orden0": 2.4161736482740968,
+      "H0_bits_byte": 3.3110203009268395,
+      "Distintos": 14,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    },
+    {
+      "Archivo": "prueba_1_pequena.txt",
+      "Solución": "Baseline: gzip -n -6",
+      "So": 64,
+      "Sc": 59,
+      "Ratio": 1.0847457627118644,
+      "Ahorro%": 7.8125,
+      "Relativo%": 92.1875,
+      "Tc_ms": 28.7439,
+      "Td_ms": 29.4178,
+      "Vc_MBs": 0.002226559374336816,
+      "Vd_MBs": 0.0021755535764061214,
+      "Overhead%": 30.508474576271187,
+      "Weissman": 1.0,
+      "SHA_OK": true,
+      "Cota_orden0": 2.4161736482740968,
+      "H0_bits_byte": 3.3110203009268395,
+      "Distintos": 14,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    },
+    {
+      "Archivo": "prueba_2_texto_natural.txt",
+      "Solución": "Propia: Huffman dinámico FGK",
+      "So": 102400,
+      "Sc": 54529,
+      "Ratio": 1.8778998331163235,
+      "Ahorro%": 46.7490234375,
+      "Relativo%": 53.2509765625,
+      "Tc_ms": 409.7763,
+      "Td_ms": 494.3425,
+      "Vc_MBs": 0.2498924413149321,
+      "Vd_MBs": 0.20714383246433396,
+      "Overhead%": 0.0366777311155532,
+      "Weissman": 0.019552033692841895,
+      "SHA_OK": true,
+      "Cota_orden0": 1.8913574619033977,
+      "H0_bits_byte": 4.2297662716539435,
+      "Distintos": 51,
+      "Nucleo_Tc_ms": 277.818,
+      "Nucleo_Td_ms": 298.3085
+    },
+    {
+      "Archivo": "prueba_2_texto_natural.txt",
+      "Solución": "Externa: Brotli q5",
+      "So": 102400,
+      "Sc": 1143,
+      "Ratio": 89.58880139982502,
+      "Ahorro%": 98.8837890625,
+      "Relativo%": 1.1162109375,
+      "Tc_ms": 17.2658,
+      "Td_ms": 28.3116,
+      "Vc_MBs": 5.930799615424713,
+      "Vd_MBs": 3.616892015993445,
+      "Overhead%": null,
+      "Weissman": 1.9697090495873923,
+      "SHA_OK": true,
+      "Cota_orden0": 1.8913574619033977,
+      "H0_bits_byte": 4.2297662716539435,
+      "Distintos": 51,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    },
+    {
+      "Archivo": "prueba_2_texto_natural.txt",
+      "Solución": "Baseline: gzip -n -6",
+      "So": 102400,
+      "Sc": 1919,
+      "Ratio": 53.361125586242835,
+      "Ahorro%": 98.1259765625,
+      "Relativo%": 1.8740234375000002,
+      "Tc_ms": 28.2795,
+      "Td_ms": 29.6295,
+      "Vc_MBs": 3.6209975423893637,
+      "Vd_MBs": 3.4560151200661506,
+      "Overhead%": 0.9379885356956749,
+      "Weissman": 1.0,
+      "SHA_OK": true,
+      "Cota_orden0": 1.8913574619033977,
+      "H0_bits_byte": 4.2297662716539435,
+      "Distintos": 51,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    },
+    {
+      "Archivo": "prueba_3_alta_repeticion.txt",
+      "Solución": "Propia: Huffman dinámico FGK",
+      "So": 102400,
+      "Sc": 36661,
+      "Ratio": 2.793158942745697,
+      "Ahorro%": 64.1982421875,
+      "Relativo%": 35.8017578125,
+      "Tc_ms": 354.6711,
+      "Td_ms": 408.6888,
+      "Vc_MBs": 0.28871819553383404,
+      "Vd_MBs": 0.25055739232393937,
+      "Overhead%": 0.054553885600501895,
+      "Weissman": 0.013158944572534281,
+      "SHA_OK": true,
+      "Cota_orden0": 2.8942186505714855,
+      "H0_bits_byte": 2.764131175238035,
+      "Distintos": 11,
+      "Nucleo_Tc_ms": 195.7366,
+      "Nucleo_Td_ms": 224.9706
+    },
+    {
+      "Archivo": "prueba_3_alta_repeticion.txt",
+      "Solución": "Externa: Brotli q5",
+      "So": 102400,
+      "Sc": 64,
+      "Ratio": 1600.0,
+      "Ahorro%": 99.9375,
+      "Relativo%": 0.0625,
+      "Tc_ms": 17.9141,
+      "Td_ms": 37.9599,
+      "Vc_MBs": 5.716167711467503,
+      "Vd_MBs": 2.6975835025908923,
+      "Overhead%": null,
+      "Weissman": 15.336888161467513,
+      "SHA_OK": true,
+      "Cota_orden0": 2.8942186505714855,
+      "H0_bits_byte": 2.764131175238035,
+      "Distintos": 11,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    },
+    {
+      "Archivo": "prueba_3_alta_repeticion.txt",
+      "Solución": "Baseline: gzip -n -6",
+      "So": 102400,
+      "Sc": 914,
+      "Ratio": 112.03501094091904,
+      "Ahorro%": 99.107421875,
+      "Relativo%": 0.892578125,
+      "Tc_ms": 22.1732,
+      "Td_ms": 22.7313,
+      "Vc_MBs": 4.618187722114985,
+      "Vd_MBs": 4.5048017491300545,
+      "Overhead%": 1.9693654266958425,
+      "Weissman": 1.0,
+      "SHA_OK": true,
+      "Cota_orden0": 2.8942186505714855,
+      "H0_bits_byte": 2.764131175238035,
+      "Distintos": 11,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    },
+    {
+      "Archivo": "prueba_4_baja_repeticion.txt",
+      "Solución": "Propia: Huffman dinámico FGK",
+      "So": 102400,
+      "Sc": 85409,
+      "Ratio": 1.1989368801882705,
+      "Ahorro%": 16.592773437499996,
+      "Relativo%": 83.4072265625,
+      "Tc_ms": 558.2997,
+      "Td_ms": 644.5223,
+      "Vc_MBs": 0.18341403371701614,
+      "Vd_MBs": 0.1588773576957694,
+      "Overhead%": 0.023416735941177158,
+      "Weissman": 0.5419075183616457,
+      "SHA_OK": true,
+      "Cota_orden0": 1.2178164688118664,
+      "H0_bits_byte": 6.569134352243577,
+      "Distintos": 95,
+      "Nucleo_Tc_ms": 412.8712,
+      "Nucleo_Td_ms": 510.9535
+    },
+    {
+      "Archivo": "prueba_4_baja_repeticion.txt",
+      "Solución": "Externa: Brotli q5",
+      "So": 102400,
+      "Sc": 85044,
+      "Ratio": 1.204082592540332,
+      "Ahorro%": 16.949218749999993,
+      "Relativo%": 83.05078125,
+      "Tc_ms": 26.5162,
+      "Td_ms": 26.5195,
+      "Vc_MBs": 3.8617901509266037,
+      "Vd_MBs": 3.8613096023680686,
+      "Overhead%": null,
+      "Weissman": 1.050175577257547,
+      "SHA_OK": true,
+      "Cota_orden0": 1.2178164688118664,
+      "H0_bits_byte": 6.569134352243577,
+      "Distintos": 95,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    },
+    {
+      "Archivo": "prueba_4_baja_repeticion.txt",
+      "Solución": "Baseline: gzip -n -6",
+      "So": 102400,
+      "Sc": 85207,
+      "Ratio": 1.2017791965448847,
+      "Ahorro%": 16.790039062499996,
+      "Relativo%": 83.2099609375,
+      "Tc_ms": 31.0511,
+      "Td_ms": 36.7661,
+      "Vc_MBs": 3.297789772343009,
+      "Vd_MBs": 2.7851743861872755,
+      "Overhead%": 0.021125024939265553,
+      "Weissman": 1.0,
+      "SHA_OK": true,
+      "Cota_orden0": 1.2178164688118664,
+      "H0_bits_byte": 6.569134352243577,
+      "Distintos": 95,
+      "Nucleo_Tc_ms": null,
+      "Nucleo_Td_ms": null
+    }
+  ],
+  "weissman_global": [
+    {
+      "Solución": "Propia: Huffman dinámico FGK",
+      "SumSo": 307200,
+      "SumSc": 176599,
+      "Rglobal": 1.739534198947899,
+      "Tglobal_ms": 1313.7909,
+      "Wglobal": 0.305327366406997
+    },
+    {
+      "Solución": "Externa: Brotli q5",
+      "SumSo": 307200,
+      "SumSc": 86251,
+      "Rglobal": 3.561697835387416,
+      "Tglobal_ms": 60.339,
+      "Wglobal": 1.0948971594825403
+    },
+    {
+      "Solución": "Baseline: gzip -n -6",
+      "SumSo": 307200,
+      "SumSc": 88040,
+      "Rglobal": 3.489323034984098,
+      "Tglobal_ms": 81.2748,
+      "Wglobal": 1.0
+    }
+  ],
+  "crudo_ns": {
+    "prueba_1_pequena.txt": {
+      "Propia: Huffman dinámico FGK": {
+        "sc": 62,
+        "tc_ns": [
+          163231400,
+          157870500,
+          181302000,
+          171278100,
+          169167700
+        ],
+        "td_ns": [
+          172248400,
+          177545900,
+          178434500,
+          169849400,
+          172479100
+        ],
+        "sha_ok": true
+      },
+      "Externa: Brotli q5": {
+        "sc": 48,
+        "tc_ns": [
+          17214700,
+          16040000,
+          15627400,
+          16182400,
+          16672100
+        ],
+        "td_ns": [
+          17036900,
+          16449500,
+          16936300,
+          15909100,
+          15788900
+        ],
+        "sha_ok": true
+      },
+      "Baseline: gzip -n -6": {
+        "sc": 59,
+        "tc_ns": [
+          28320700,
+          29719400,
+          28455100,
+          28743900,
+          29720200
+        ],
+        "td_ns": [
+          28709000,
+          31521300,
+          29548400,
+          28113600,
+          29417800
+        ],
+        "sha_ok": true
+      }
+    },
+    "prueba_2_texto_natural.txt": {
+      "Propia: Huffman dinámico FGK": {
+        "sc": 54529,
+        "tc_ns": [
+          412337500,
+          409776300,
+          385417400,
+          467277800,
+          395521700
+        ],
+        "td_ns": [
+          494342500,
+          506264900,
+          466540800,
+          463178100,
+          499941800
+        ],
+        "sha_ok": true
+      },
+      "Externa: Brotli q5": {
+        "sc": 1143,
+        "tc_ns": [
+          19378900,
+          16924300,
+          17204400,
+          17265800,
+          17362000
+        ],
+        "td_ns": [
+          25429500,
+          28311600,
+          24747300,
+          30822800,
+          28983600
+        ],
+        "sha_ok": true
+      },
+      "Baseline: gzip -n -6": {
+        "sc": 1919,
+        "tc_ns": [
+          30159900,
+          28288600,
+          28002100,
+          28279500,
+          27312200
+        ],
+        "td_ns": [
+          29442400,
+          29629500,
+          30039800,
+          32530300,
+          28554900
+        ],
+        "sha_ok": true
+      }
+    },
+    "prueba_3_alta_repeticion.txt": {
+      "Propia: Huffman dinámico FGK": {
+        "sc": 36661,
+        "tc_ns": [
+          334682400,
+          345714900,
+          389759800,
+          390255000,
+          354671100
+        ],
+        "td_ns": [
+          388277400,
+          423509900,
+          398935200,
+          408688800,
+          443225100
+        ],
+        "sha_ok": true
+      },
+      "Externa: Brotli q5": {
+        "sc": 64,
+        "tc_ns": [
+          28977900,
+          27959000,
+          17914100,
+          15405100,
+          13318600
+        ],
+        "td_ns": [
+          61734000,
+          57225300,
+          37959900,
+          33269300,
+          35077800
+        ],
+        "sha_ok": true
+      },
+      "Baseline: gzip -n -6": {
+        "sc": 914,
+        "tc_ns": [
+          21808600,
+          21703500,
+          22503300,
+          22173200,
+          22453600
+        ],
+        "td_ns": [
+          22731300,
+          22344600,
+          22063400,
+          22950400,
+          30106400
+        ],
+        "sha_ok": true
+      }
+    },
+    "prueba_4_baja_repeticion.txt": {
+      "Propia: Huffman dinámico FGK": {
+        "sc": 85409,
+        "tc_ns": [
+          581832400,
+          558299700,
+          534136100,
+          576308300,
+          550795200
+        ],
+        "td_ns": [
+          626977000,
+          672882000,
+          658972200,
+          635216100,
+          644522300
+        ],
+        "sha_ok": true
+      },
+      "Externa: Brotli q5": {
+        "sc": 85044,
+        "tc_ns": [
+          30896100,
+          27912000,
+          25220500,
+          26125700,
+          26516200
+        ],
+        "td_ns": [
+          27252700,
+          26519500,
+          24545600,
+          29908100,
+          25448000
+        ],
+        "sha_ok": true
+      },
+      "Baseline: gzip -n -6": {
+        "sc": 85207,
+        "tc_ns": [
+          31945600,
+          31051100,
+          30834200,
+          30822100,
+          31130600
+        ],
+        "td_ns": [
+          36766100,
+          36145900,
+          36694200,
+          37146300,
+          38515300
+        ],
+        "sha_ok": true
+      }
+    }
+  }
+}

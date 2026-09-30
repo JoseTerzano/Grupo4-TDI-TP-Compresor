@@ -1,0 +1,4 @@
+tests/corpus/* binary
+*.tdi binary
+*.br binary
+*.gz binary

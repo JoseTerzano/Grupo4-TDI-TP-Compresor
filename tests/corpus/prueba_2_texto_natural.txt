@@ -1,0 +1,1125 @@
+Seccion 0001
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0002
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0003
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0004
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0005
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0006
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0007
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0008
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0009
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0010
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0011
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0012
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0013
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0014
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0015
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0016
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0017
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0018
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0019
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0020
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0021
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0022
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0023
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0024
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0025
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0026
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0027
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0028
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0029
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0030
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0031
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0032
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0033
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0034
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0035
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0036
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0037
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0038
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0039
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0040
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0041
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0042
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0043
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0044
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0045
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0046
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0047
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0048
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencias observadas anteriormente, mientras que los modelos contextuales utilizan informacion de simbolos previos. 
+Las transformaciones como BWT no comprimen por si solas, pero pueden reorganizar la informacion para facilitar el trabajo de etapas posteriores.
+
+Seccion 0049
+La teoria de la informacion estudia como representar, transmitir y recuperar datos de manera eficiente. 
+En un sistema real no alcanza con reducir el tamano de un archivo: tambien importa conservar exactamente su contenido, medir el tiempo de procesamiento y comprender que tipo de redundancia aprovecha cada algoritmo. 
+Un texto natural combina palabras frecuentes, signos de puntuacion, espacios y estructuras que se repiten de forma irregular.
+
+Durante una prueba de compresion conviene utilizar siempre los mismos archivos para que los resultados sean comparables. 
+El tamano original, el tamano comprimido, el tiempo de compresion y el tiempo de descompresion permiten observar comportamientos distintos. 
+Algunos metodos funcionan especialmente bien cuando existen patrones largos; otros aprovechan mejor las diferencias en la frecuencia de los simbolos.
+
+La reconstruccion del archivo debe verificarse byte a byte. 
+Una comparacion visual puede parecer suficiente para un texto, pero no garantiza que todos los bytes coincidan. 
+Por ese motivo es util calcular una huella criptografica del archivo original y compararla con la obtenida luego de descomprimir. 
+Si ambas huellas coinciden, la validacion resulta reproducible y sencilla de documentar.
+
+En una competencia entre compresores, ganar una unica prueba no implica que un metodo sea superior en todos los escenarios. 
+Un algoritmo puede obtener una gran reduccion de tamano y, al mismo tiempo, requerir mucho mas tiempo de ejecucion. 
+Otro puede comprimir menos pero responder con mayor velocidad. 
+El analisis final debe considerar estas diferencias y explicar que caracteristicas de los datos favorecieron a cada tecnica.
+
+Los modelos estadisticos asignan representaciones mas cortas a eventos frecuentes. 
+Los metodos de diccionario buscan reutilizar secuencia
